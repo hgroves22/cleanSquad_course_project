@@ -1,6 +1,6 @@
 # Simulated Cleaning Robot Fleet Management System
 
-## A fully functional management system project written in C++ that allows the user to use a CLI to send designed robots to clean a simulated room structure.
+## A fully functional management system written in C++ that allows the user to work with a CLI to send designed robots to clean simulated rooms.
 
 This project was developed by me and three classmates as part of our Software Engineering elective  in the fall of 2023. Throughout the four-month project, we applied the Scrum framwork to learn and implement effective Agile development practices.
 
