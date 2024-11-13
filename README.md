@@ -33,7 +33,12 @@ Once deciding the type of simulation the user wants to run, they are then shown 
 * 7.) Exit Simulation: This will end the simulation.
 
 ### 3.) MonogoDB
+We stored all the information about the simulation in a database. We used MongoDB for this function and as updates occur, all the rooms, robots, and tasks will be logged and updated in real time.
 
+## Installation
+Below is a step by step guide to running this program. 
+
++ is this different
 
 
 ### Something else
