@@ -39,7 +39,7 @@ We stored all the information about the simulation in a database. We used MongoD
 ## Installation
 Below is a step by step guide to running this program. 
 
-* In the terminal, navigate to the build folder. This can be done with the cd build/ command. Then use the cmake .. command to build the entire program. Next, navigate to the app folder inside of build and then compile the actual simulation. This can be done with the following commands cd app then make. To run the simulation executable run the ./main command.
+* Once downloading all the files in this repo, in the terminal, navigate to the build folder. This can be done with the cd build/ command. Then use the cmake .. command to build the entire program. Next, navigate to the app folder inside of build and then compile the actual simulation. This can be done with the following commands cd app then make. To run the simulation executable run the ./main command.
 
 * You need to make sure your local machine has mongodb installed. This can be done with homebrew with the following commands: brew install mongocli.
 
