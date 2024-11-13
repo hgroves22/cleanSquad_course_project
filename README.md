@@ -44,11 +44,7 @@ Below is a step by step guide to running this program.
 * You need to make sure your local machine has mongodb installed. This can be done with homebrew with the following commands: brew install mongocli.
 
 
-### Something else
-+ `design` - this [folder](docs/design/DESIGN.md) maintains **all** of your project documentation: `puml` files and `README`s. You will have deliverables that require updating this documentation.
-+ `include` - the [include](include/INCLUDE.md) files for the libraries your team makes
-+ `src` - the [source](src/SRC.md) files for libraries you decide to split out the implementation
-+ `app` - the [main application(s)](app/APP.md) of the project
-+ `tests` - a battery of [tests](tests/TESTS.md) tests for your libraries and app
+### Link to Design Structure
++ `Design` - This [folder](docs/design/DESIGN.md) contains all the diagrams designed for this project. There are Behavioral and Class Diagrams as well as Use Case Diagrams as well.
 
 
