@@ -15,14 +15,26 @@ At the start of the program, the user will be prompted to choose either a defaul
   
 * The custom simulation allows the user to create any amount of robots and rooms, and allows them to specify the typing as well.
 
-### 2.) Various CLI Functions
+### 2.) CLI Properties
 Once deciding the type of simulation the user wants to run, they are then shown the CLI consisting of different options. 
 
-* Creating new tasks:
-* 2.) Printing Available Robots: This will return all the robots that are not actively assigned to clean a room and that are not broken and being repaired. The information shown for each robot is: Robot ID, Robot Size, Robot Type, Probability of Failure, and Battery Remaining
-* 
-* 3.) 
-### 3.) Testing
+* 1.) Creating New Tasks: Prompts the user to select which room they want to clean. It is required that the room's Clean Status is set to dirty for this to continue. This will set the status of the room to Cleaning. Once selected, the program will automatically send the necessary robots to the room to start cleaning it and will return when their battery runs out or the task is completed. This is tracked in real time depending on the robot's battery life as well as required cleaning times of each room. We used multithreading to allow each robot to be on their own timetable. While each robot is sent on a task, they spin a thread which properly accounts for the time they should be on this task. After all the robots are made available again, and all the necessary time for mopping/vacuuming/scrubbing is complete, the room will be set to Clean.
+  
+* 2.) Printing Available Robots: Returns a visual of all the robots that are not actively assigned to clean a room and that are not broken and being repaired. The information shown for each robot is: RobotID, Robot Size, Robot Type, Probability of Failure, and Battery Remaining
+  
+* 3.) Printing Rooms: Returns a visual of all the rooms in the building. The information shown for each robot is: RoomID, Room Size, Mop/Vacuum/Scrub Time required, and the Clean Status. RoomID: 0 is always designated as a default room that the robots stay in when not cleaning and will always be programmed.
+
+* 4.) Set Room to DO NOT CLEAN: Allows the user to set a room's Clean Status to "Do Not Clean" preventing any tasks to send robots to that room.
+
+* 5.) Make All Clean Rooms Dirty: Changes all the Clean Status of every clean room to dirty allowing tasks to send robots there.
+
+* 6.) Charging All Robots: Every robot has an attribute called Battery Remaining which depletes when they get sent to clean each room. Every second that a robot is working on a task accounts for 10 battery. Once a robot has 0 battery, they are unable to be sent on a task to clean rooms. This operation charges all the robots that are not sent on a task at a rate of 10 battery a second.
+
+* 7.) Exit Simulation: This will end the simulation.
+
+### 3.) MonogoDB
+
+
 
 ### Something else
 + `docs` - this [folder](docs/README.md) maintains **all** of your project documentation: `puml` files and `README`s. You will have deliverables that require updating this documentation.
