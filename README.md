@@ -35,19 +35,20 @@ Once deciding the type of simulation the user wants to run, they are then shown 
 ### 3.) MonogoDB
 We stored all the information about the simulation in a database. We used MongoDB for this function and as updates occur, all the rooms, robots, and tasks will be logged and updated in real time.
 
+
 ## Installation
 Below is a step by step guide to running this program. 
 
-+ is this different
+* In the terminal, navigate to the build folder. This can be done with the cd build/ command. Then use the cmake .. command to build the entire program. Next, navigate to the app folder inside of build and then compile the actual simulation. This can be done with the following commands cd app then make. To run the simulation executable run the ./main command.
+
+* You need to make sure your local machine has mongodb installed. This can be done with homebrew with the following commands: brew install mongocli.
 
 
 ### Something else
-+ `docs` - this [folder](docs/README.md) maintains **all** of your project documentation: `puml` files and `README`s. You will have deliverables that require updating this documentation.
++ `design` - this [folder](docs/README.md) maintains **all** of your project documentation: `puml` files and `README`s. You will have deliverables that require updating this documentation.
 + `include` - the [include](include/INCLUDE.md) files for the libraries your team makes
 + `src` - the [source](src/SRC.md) files for libraries you decide to split out the implementation
 + `app` - the [main application(s)](app/APP.md) of the project
 + `tests` - a battery of [tests](tests/TESTS.md) tests for your libraries and app
-
-## How to run this program
 
 
