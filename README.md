@@ -1,9 +1,9 @@
-# CMSC322 Main Project
+# Simulated Cleaning Robot Fleet Management System
 
-This main project is your repository for the duration of the semester! **Take care of it!**
-Your team must communicate and coordinate to ensure that this project repo does not get totally borked!
+## A fully functional management system project written in C++ that allows the user to use a CLI to send designed robots to clean a simulated room structure.
 
-## Repo Structure
+This project was developed by me and three classmates as part of our Software Engineering elective  in the fall of 2023. Throughout the four-month project, we applied the Scrum framwork to learn and implement effective Agile development practices.
+
 Here are the main directories you need to worry about this semester:
 + `docs` - this [folder](docs/README.md) maintains **all** of your project documentation: `puml` files and `README`s. You will have deliverables that require updating this documentation.
 + `include` - the [include](include/INCLUDE.md) files for the libraries your team makes
