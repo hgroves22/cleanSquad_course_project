@@ -2,9 +2,11 @@
 
 ## A fully functional management system written in C++ that allows the user to work with a CLI to send designed robots to clean simulated rooms.
 
-This project was developed by me and three classmates as part of our Software Engineering elective  in the fall of 2023. Throughout the four-month project, we applied the Scrum framwork to learn and implement effective Agile development practices.
+This project was developed by me and three classmates as part of our Software Engineering elective  in the fall of 2023. Throughout the four-month project, we applied the Scrum framework to learn and implement effective Agile development practices.
 
-Here are the main directories you need to worry about this semester:
+Here are the main functions that are available with this program:
+* Default or Custom Simulation:
+*   something
 + `docs` - this [folder](docs/README.md) maintains **all** of your project documentation: `puml` files and `README`s. You will have deliverables that require updating this documentation.
 + `include` - the [include](include/INCLUDE.md) files for the libraries your team makes
 + `src` - the [source](src/SRC.md) files for libraries you decide to split out the implementation
