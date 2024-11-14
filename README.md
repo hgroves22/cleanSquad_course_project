@@ -9,7 +9,7 @@ This project was developed by me and three classmates as part of our Software En
 ### 1.) Simulation Options
 At the start of the program, the user can select either a default simulation or create a custom simulation.
 
-* Default Simulation: Automatically generates 12 robots: one of each size (small, medium, large) and type (mopper, vacuum, scrubber), as well as an additional large robot of each type to help demonstrate the program. It also generates 6 rooms: one of each size (small, medium, large) with one of the medium-sized rooms designated to not be cleaned.
+* Default Simulation: Automatically generates 12 robots: one of each size (small, medium, large) and type (mopper, vacuum, scrubber), as well as an additional large robot of each type to help demonstrate the program. It also generates 6 rooms: two of each size (small, medium, large) with one of the medium-sized rooms designated to not be cleaned.
   
 * Custom Simulation: Allows the user to create any number of robots and rooms, and allows them to specify their size and types as well.
 
